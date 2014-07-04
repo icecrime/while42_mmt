@@ -1,0 +1,5 @@
+twitter:
+    consumer_key: <consumer_key>
+    consumer_secret: <consumer_secret>
+    auth_token_key: <auth_token_key>
+    auth_token_secret: <auth_token_secret>
