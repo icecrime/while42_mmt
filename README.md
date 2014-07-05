@@ -21,7 +21,7 @@ Usage
 -----
 
 - Build the Docker image:
-      `(cd docker; docker build -t icecrime/while42_mmt .)`
+      `docker build -t icecrime/while42_mmt docker`
 - Run a Docker container:
       `docker run --rm -ti -p 8080:80 -p 8125:8125/udp icecrime/while42_mmt`
 - Start the feeding process:
