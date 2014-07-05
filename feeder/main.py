@@ -39,7 +39,7 @@ if __name__ == '__main__':
     queue = Queue.Queue()
     knt_stream = keynote.Stream(run_event, queue)
     snd_stream = sound.Stream(run_event, queue)
-    twt_stream = tweets.Stream(run_event, queue, ['#while42', '#While42'])
+    twt_stream = tweets.Stream(run_event, queue)
 
     try:
         event_loop(queue)

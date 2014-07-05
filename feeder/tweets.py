@@ -24,7 +24,7 @@ class Stream(object):
             print("Twitter: on_timeout()")
 
 
-    def __init__(self, run, queue, hashtags):
+    def __init__(self, run, queue):
         conf = config.twitter
         auth = tweepy.OAuthHandler(conf['consumer_key'], conf['consumer_secret'])
         auth.set_access_token(conf['access_token_key'], conf['access_token_secret'])
@@ -36,7 +36,7 @@ class Stream(object):
 
         try:
             self.twt_stream = tweepy.Stream(auth, listen)
-            self.twt_stream.filter(async=True, track=hashtags)
+            self.twt_stream.filter(async=True, track=['#while42'])
         except tweepy.TweepError as e:
             sys.stderr.write("Failed to initialize Twitter ({})\n".format(e))
         else:
