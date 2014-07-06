@@ -248,14 +248,24 @@
       "enable": true,
       "annotations": [
         {
-          "name": "Slide change",
+          "name": "Slide text",
           "type": "graphite metric",
           "showLine": true,
           "iconColor": "#C0C6BE",
           "lineColor": "rgba(255, 96, 96, 0.592157)",
           "iconSize": 13,
           "enable": true,
-          "target": "stats.counters.graphite.talk.keynote.slide_changed.count"
+          "target": "stats.counters.graphite.talk.keynote.slide_changed.std.count"
+        },
+        {
+          "name": "Slide meme",
+          "type": "graphite metric",
+          "showLine": true,
+          "iconColor": "#C0C6BE",
+          "lineColor": "rgba(35, 185, 0, 0.74)",
+          "iconSize": 13,
+          "enable": true,
+          "target": "stats.counters.graphite.talk.keynote.slide_changed.meme.count"
         }
       ]
     }
