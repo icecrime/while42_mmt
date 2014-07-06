@@ -147,7 +147,7 @@
           "percentage": false,
           "zerofill": true,
           "nullPointMode": "connected",
-          "steppedLine": false,
+          "steppedLine": true,
           "tooltip": {
             "value_type": "cumulative",
             "query_as_alias": true
