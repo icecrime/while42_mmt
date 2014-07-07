@@ -1,5 +1,0 @@
-tell application "Keynote"
-    tell current slide of front document
-        get { slide number, notes }
-    end tell
-end tell

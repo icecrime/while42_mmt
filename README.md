@@ -10,6 +10,10 @@ Concept
 This is an experiment about giving a talk on metrics by demoing live data of
 the ongoing talk itself (how meta is that?).
 
+<p align="center">
+  <img src="https://github.com/icecrime/while42_mmt/blob/master/resources/xzibit.jpg?raw=true"/>
+</p>
+
 It currently catches:
 
 - Sound data: per second RMS / min / max from a microphone
