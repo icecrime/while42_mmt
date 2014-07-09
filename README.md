@@ -27,6 +27,6 @@ Usage
 - Build the Docker image:
       `docker build -t icecrime/while42_mmt docker`
 - Run a Docker container:
-      `docker run --rm -ti -p 8080:80 -p 8125:8125/udp icecrime/while42_mmt`
+      `docker run --rm -p 8080:80 -p 8125:8125/udp icecrime/while42_mmt`
 - Start the feeding process:
       `python feeder/main.py`
